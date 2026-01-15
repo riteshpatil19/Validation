@@ -1,16 +1,42 @@
-# React + Vite
+📝 Project Overview
+This project is a React-based form validation application developed using functional components and React Hooks. The main objective of the project is to understand how form data is handled in React and how client-side validation can be implemented without reloading the page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application contains a user registration form with three input fields:
+Email
+Password
+Confirm Password
+The project ensures that the user enters valid and matching information before the form is successfully submitted.
 
-Currently, two official plugins are available:
+⚙️ Technologies Used
+React JS – For building user interfaces
+JavaScript (ES6) – For logic and validation
+HTML5 – For form structure
+CSS3 – For styling the UI
+Vite – For fast React project setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+validation/
+│── src/
+│   ├── App.jsx        → Main React component
+│   ├── App.css        → Styling file
+│   └── main.jsx       → React DOM rendering
+│── public/
+│── package.json
 
-## React Compiler
+✅ Project Features
+✔ Controlled components
+✔ Client-side validation
+✔ Real-time error handling
+✔ Clean UI design
+✔ No page reload on submit
+✔ Beginner-friendly React logic
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📚 Learning Outcomes
+After completing this project, you will understand:
+How React handles form inputs
+How to use useState effectively
+How to apply the spread operator in React
+How client-side validation works
+How to structure a React project
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Conclusion
+This project is a beginner-friendly React application that demonstrates the fundamentals of form handling, validation, and state management. It is ideal for students learning React and serves as a strong foundation for building more advanced forms and real-world applications.
